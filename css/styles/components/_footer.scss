@@ -1,0 +1,56 @@
+footer {
+  background: $paper;
+  color: $charcoal;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 40px;
+  flex-wrap: wrap;
+}
+
+footer a {
+  color: $charcoal;
+  text-decoration: none !important;
+}
+
+footer li {
+  color: $charcoal;
+  text-decoration: none !important;
+  font-size: 20px;
+}
+
+.quick-links,
+.social {
+  display: flex;
+  list-style-type: none;
+}
+
+.social > li,
+.quick-links > li {
+  color: $charcoal;
+  margin: 0px 10px;
+  transition: 0.01s all ease;
+}
+
+.social a:hover {
+  color: $pale-gold;
+}
+.quick-links a:hover {
+  color: $pale-gold;
+}
+
+footer {
+  background-image: url("img/fondo8.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  background-size: cover;
+}
+
+a.wh{
+  color: white;
+}

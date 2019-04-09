@@ -1,0 +1,67 @@
+.class-summary-container {
+  width: 100%;
+}
+
+.class-summary-container ul {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.class-summary-container ul li {
+  list-style: none;
+}
+
+.class-summary-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.class-summary-header a {
+  text-decoration: none;
+  color: $charcoal;
+}
+
+.class-summary {
+  text-align: center;
+  border: 2px solid $charcoal;
+  border-radius: 2px;
+  margin: 12px;
+  padding: 8px;
+}
+
+.class-image-container {
+  display: block;
+  height: 80px;
+  width: 160px;
+  background: url("img/pistaCesped.jpg") repeat 0 0;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.participating {
+  background-color: lighten($pale-gold, 25%);
+}
+
+.class-summary a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: $charcoal;
+}
+
+.class-summary a > * {
+  padding: 8px;
+  margin: 0px;
+}
+
+.class-summary a p {
+  text-align: center;
+}
+
+.class-summary:hover {
+  background-color: lighten($pale-gold, 25%);
+}

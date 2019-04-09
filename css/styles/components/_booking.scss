@@ -1,0 +1,68 @@
+.booking-summary-container {
+  width: 100%;
+}
+
+.booking-summary-container ul {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.booking-summary-container ul li {
+  list-style: none;
+}
+
+.booking-summary-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.booking-summary-header a {
+  text-decoration: none;
+  color: $charcoal;
+}
+
+.booking-summary {
+  text-align: center;
+  border: 2px solid $charcoal;
+  border-radius: 2px;
+  margin: 12px;
+  padding: 8px;
+}
+
+.booking-summary form a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: $charcoal;
+}
+
+.booking-summary form a > * {
+  padding: 8px;
+  margin: 0px;
+}
+
+.booking-summary form a p {
+  text-align: center;
+}
+
+.booking-summary:hover {
+  background-color: lighten(#ee4646, 20%);
+}
+
+.hidden-icon {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  opacity: 0;
+}
+
+.hidden-icon > i {
+  color: $charcoal;
+}
+
+.booking-summary:hover > .hidden-icon {
+  opacity: 1;
+}
+

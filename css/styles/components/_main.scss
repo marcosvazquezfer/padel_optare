@@ -1,0 +1,42 @@
+main{
+    flex-direction: column;
+    justify-content: center;
+}
+
+main div#main-container {
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+}
+
+main div#main-container .main-elem {
+    height: 360px;
+    margin: 20px;
+    text-align: center;
+	background-position: center center;
+    background-repeat: no-repeat;
+}
+
+main div#main-container .first {
+    height: 480px;
+    margin-bottom: 80px;
+    background-image: url("img/suelo.jpg");
+}
+
+main div#main-container .second {
+    margin-bottom: 80px;
+    background-image: url("img/campeonato.jpg");
+}
+
+
+main div#main-container .third {
+    background-image: url("img/paddle.jpg");
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+
+main div#main-container h1 {
+    color: $charcoal;
+    padding: 0px 20px;
+}

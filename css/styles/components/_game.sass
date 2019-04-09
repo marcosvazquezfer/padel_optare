@@ -1,0 +1,49 @@
+.game-summary-container 
+  width: 100%
+  ul 
+    padding: 0px
+    display: flex
+    flex-wrap: wrap
+    li 
+      list-style: none
+
+.game-summary-header 
+  display: flex
+  align-items: center
+  justify-content: space-between
+  a 
+    text-decoration: none
+    color: $charcoal
+
+.game-summary 
+  text-align: center
+  border: 2px solid $charcoal
+  border-radius: 2px
+  margin: 12px
+  padding: 8px
+  form a 
+    display: block
+    height: 100%
+    width: 100%
+    text-decoration: none
+    color: $charcoal
+    p 
+      text-align: center
+    > * 
+      padding: 8px
+      margin: 0px
+
+.game-summary:hover 
+  background-color: lighten($pale-gold, 25%)
+
+.game-image-container 
+  display: block
+  height: 80px
+  width: 160px
+  background: url("img/pistaCesped.jpg") repeat 0 0
+  background-size: contain
+  background-position: center center
+  background-repeat: no-repeat
+
+.participating 
+  background-color: lighten($pale-gold, 25%)

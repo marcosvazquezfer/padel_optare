@@ -1,0 +1,38 @@
+table.tbase{
+
+    border: 2px solid $charcoal;
+    border-radius: 3px;
+    align-items: center;
+}
+
+table.tbase thead{
+
+    background-color: $pale-gold;
+}
+
+table.tbase thead tr th{
+
+    padding: 10px 15px;
+}
+
+table.tbase tbody{
+
+    text-align: center;
+    color: $charcoal;
+}
+
+table.tbase tbody tr td{
+
+    padding: 5px 10px;
+}
+
+table.tbase tbody tr td a{
+
+    color: black;
+    text-decoration: none;
+}
+
+table.tbase tbody tr td a:hover{
+
+    color: $pale-gold;
+}

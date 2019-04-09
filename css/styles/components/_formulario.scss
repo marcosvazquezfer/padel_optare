@@ -1,0 +1,83 @@
+.formulario {
+  color: $charcoal;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 3px;
+  padding: 20px 40px;
+}
+
+.formulario form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.formulario form p{
+
+  text-align: center;
+}
+
+.formulario form input, .formulario form select {
+  color: $charcoal;
+  padding: 8px;
+  margin: 8px auto;
+  border: none;
+  background-color: #F1F1F1; 
+  border-radius: 3px;
+}
+
+.formulario form select {
+  border-radius: 3px;
+}
+
+
+.formulario form > div{
+    display: flex;
+    justify-content: space-between;
+  }
+
+.form-btn,
+.formulario .submit-btn {
+  margin-top: 20px;
+  border-radius: 3px;
+  color: white;
+  background-color: $charcoal;
+}
+
+.submit-btn {
+  text-decoration: none;
+  padding: 8px;
+  margin: 8px auto;
+  border: 2px solid $charcoal;
+  border-radius: 3px;
+}
+
+.form-btn:hover,
+.form-btn:focus,
+.submit-btn:hover,
+.submit-btn:focus {
+  background-color: $pale-gold;
+}
+
+input[type=checkbox] {
+
+  display: none;
+}
+
+input[type=checkbox] + label {  
+
+height: 30px;
+width: 30px;
+background-image: url('img/greyBall.png');
+background-size: 100%;
+display: inline-block;
+}
+
+input[type=checkbox]:checked + label {
+
+  background-image: url('img/goldBall.png');
+  background-size: 100%;
+}

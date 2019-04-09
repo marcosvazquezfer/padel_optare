@@ -1,0 +1,60 @@
+header {
+  background-color: $paper;
+  padding: 20px;
+}
+
+header > .title-row {
+  display: flex;
+  padding: 0px 80px 0px 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-user-container {
+  display: flex;
+  align-content: center;
+}
+
+.header-user-container p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: $pale-gold;
+  margin: 8px 16px;
+}
+
+header > .title-row  h1 {
+  color: white;
+}
+
+header > .title-row  a {
+  text-decoration: none;
+}
+
+header > nav {
+  display: flex;
+  padding: 0px 40px;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+.nav-bar a.wh {
+  color: white;
+}
+
+.nav-bar > a {
+  size: 20px;
+  color: $charcoal;
+  text-decoration: none;
+}
+
+.nav-bar > a:hover {
+  color: $pale-gold;
+}
+
+header {
+  background-image: url("img/fondo8.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
